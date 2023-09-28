@@ -4,3 +4,47 @@ body{
     margin: 0px auto;
     max-width: 1024px;
 }
+header{
+    background: #d1e3ee
+}
+header nav {
+    background: #026dc6;
+    border-radius: 5px; /*Es la medida que se usalmente para redondear las esquinas*/
+    padding: 2px 0px;
+    margin: 0px auto; /*Centramos*/
+    width: 99%;
+}
+header nav form{
+    float :right ;
+    margin-right: 20px;
+    margin-top: -35px;
+}
+header nav form input {
+    border-radius: 5px;
+}
+header nav form input[type="submit"]{
+    background: green;
+    border: 1px solid green;
+    color:white
+}
+ 
+header nav ul li {
+    /*border: 1px solid red;*/
+    color: white;
+    /*display: block;  El valor por default que tienen es block*/
+    display: inline-block; /*Y las ponemos una a lado de la otra */
+    margin-right: 20px; /*Un margen derecho de 20 pixeles*/
+}
+#logo{
+    margin-top: -150px;
+}
+#seccion01{
+    margin-top: 15px;
+}
+#seccion01 article{
+    text-align: center;
+}
+#seccion01 article img{
+    width: 99%;
+    border: 5px solid rgba(150,150,150,0.5);
+}
