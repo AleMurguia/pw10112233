@@ -45,6 +45,31 @@ header nav ul li {
     text-align: center;
 }
 #seccion01 article img{
-    width: 99%;
     border: 5px solid rgba(150,150,150,0.5);
+    width: 98%;
 }
+#seccion02 article { /*Los ID son los que inician con gato*/
+    /*border: 1px solid blue;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 33.0%;
+}
+#seccion02 article input[type="submit"]{
+    background: white;
+    border-radius: 5px; /*Redondear esquinas*/
+    color: blue; /*Color de la letra*/
+    margin-left: 130px; /*Centramos los botones*/
+    padding: 5px;
+}
+.nito{
+    font-weight: bold; /*Negritas*/
+}
+.otraSeccion{
+    font-size: 2.5em; /*Las clases inician con punto*/
+}
+
+.unaSeccion{ /*Las clases inician con punto*/
+    font-size: 4.5em;
+}
+
+  
